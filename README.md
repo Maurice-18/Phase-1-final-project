@@ -29,12 +29,6 @@ This project serves as a demonstration of:
 
 ---
 
-## Live Demo
-
-**View the app live at:** [FIPE Valuation App on Netlify](https://your-deployment-link.netlify.app)
-
----
-
 ## How to Use
 
 ### Requirements
