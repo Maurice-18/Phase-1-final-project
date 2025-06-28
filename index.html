@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fipe Vehicle Valuation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <h1>Check Vehicle Value</h1>
+
+    <form id="fipe-form">
+        <label for="type">Vehicle Type:</label>
+        <select id="type">
+            <option value="carros" selected>Cars</option>
+            <option value="motos">Motorcycles</option>
+            <option value="caminhoes">Trucks</option>
+        </select>
+
+        <label for="brand">Brand:</label>
+        <select id="brand"><option value="">Select Brand</option></select>
+
+        <label for="model">Model:</label>
+        <select id="model"><option value="">Select Model</option></select>
+        
+        <label for="year">Year:</label>
+        <select id="year"><option value="">Select year</option></select>
+
+        <button type="submit">Get Vehicle Value</button>
+
+        <button type="button" id="clear-btn">Clear</button>
+    </form>
+
+    <section id="result"></section>
+
+    <footer>
+        <p>&copy; 2025 FipeWheels.</p>
+    </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
